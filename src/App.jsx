@@ -31,10 +31,6 @@ function App() {
             <Routes>
               <Route element={<Layout />}>
                 <Route path="/" element={<Website />} />
-                <Route path="/properties">
-                  <Route index element={<Properties />} />
-                  <Route path=":propertyId" element={<Property />} />
-                </Route>
                 <Route path="/bookings" element={<Bookings />} />
                 <Route path="/favourites" element={<Favourites />} />
               </Route>

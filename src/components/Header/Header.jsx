@@ -42,7 +42,6 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <NavLink to="/properties">Properties</NavLink>
 
             <a href="mailto:zainkeepscode@gmail.com">Contact</a>
 
